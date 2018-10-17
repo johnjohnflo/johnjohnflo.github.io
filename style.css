@@ -52,3 +52,4 @@ nav ul li {display:inline-block;}
 @media screen and (max-width: 767px) {
 	nav {background: green;}
 }
+footer {text-align: center;}
