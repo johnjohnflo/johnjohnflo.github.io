@@ -47,6 +47,11 @@ p {
 	padding: 2%;
 }
 
+.images_petit {
+width:100px;
+height:100px;
+}
+
 nav ul li {display:inline-block;}
 
 
