@@ -10,8 +10,9 @@ body {
 
 header {
 	background:#01B0F0;
-	color:#808383;
+	color:#FFFFFF;
 	text-align: center;
+	background-image: src="logo-swell-tech-white copy.png" class="images_petit" alt="logo";
 }
 
 nav li {
@@ -40,21 +41,41 @@ a:hover {
 	font-style: bold;
 }
 
+a {color: #FFFFFF}
+
 p {
 	margin: 20px 0 20px 0;
 	padding: 2%;
 }
 
 .images_petit {
-width:50px;
-height:50px;
+width:150px;
+height:150px;
 float: left;
+margin-top: -30px;
 }
 
-nav ul li {display:inline-block;}
+.home_menu{
+word-spacing: 20px;
+text-align: left;
+}
+
+.home_slider img{
+	width: 100%;
+	overflow: hidden;
+
+}
+
+nav ul li {display:inline-block;
+margin-top: none
+}
 
 
 @media screen and (max-width: 767px) {
 	nav {background: green;}
 }
-footer {text-align: center;}
+footer {
+	text-align: center;
+	color:#FFFFFF;
+	padding-top: 20px;
+}
